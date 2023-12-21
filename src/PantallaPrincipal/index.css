@@ -1,0 +1,27 @@
+.contenedor {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    text-align: center;
+}
+
+h1 {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    width : 100%;
+}
+.imagenPrincipal {
+    height: 400px;
+    width: 100%;
+}
+.imagenPrincipal img{
+    height: 100%;
+}
+.boton{
+    margin-top: 30px;
+    position: relative;
+}
+.botonSalir{
+    display: flex;
+    width: 100%;
+    
+}

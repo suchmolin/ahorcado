@@ -1,0 +1,27 @@
+.contenedor{
+    height: 400px;
+    width: 100%;
+    
+}
+.letra{
+    display: inline-block;
+    height: 50%;
+    width: 100px;
+    font-size: 100px;
+    border-bottom: solid 5px;
+    padding: 2px 2px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+.letra p {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.envio input{
+    margin: 5px 5px;
+
+}
+#parrafoInputError{
+    color: red;
+}
