@@ -51,7 +51,7 @@ function Juego() {
                 })
             }
             <form onSubmit={capturar} className="envio">
-                <input placeholder="presiona enter para enviar" id="entrada" type="text" />
+                <input className="css-input" placeholder="presiona enter para enviar" id="entrada" type="text" />
                 <p>Longitud de la palabra: {randomWord.length} - Ultimo intento: {ultimoIntento} </p>
                 {errorCaptura && <p id='parrafoInputError'>Asegurate de escribir solo una letra, si te sabes la palabra
                     completa puedes escribirla en la casilla</p>}

@@ -18,18 +18,20 @@ function PantallaPrincipal() {
 
     return (
         <div className='contenedor'>
-            <div className="botonSalir">
-                {start && <button onClick={() => (salir())}>Salir</button>}
+            <div>
+                {start && <button className="css-button-sharp--black--salir" onClick={() => (salir())}>Salir</button>}
             </div>
-            <h1>
-                <p>El juego del ahorcado</p>
-            </h1>
+            <div className="titulo">
+                <h1>
+                    <p>El juego del ahorcado</p>
+                </h1>
+            </div>
             <div className='imagenPrincipal'>
                 {!start && <img src={imagen} alt="alto" />}
                 {start && <Juego />}
             </div>
-            <div className="boton">
-                {!start && <button onClick={() => (iniciar())}>Iniciar</button>}
+            <div>
+                {!start && <button className="css-button-sharp--black" onClick={() => (iniciar())}>Jugar</button>}
             </div>
         </div>
     )

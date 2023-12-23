@@ -16,12 +16,49 @@ h1 {
 .imagenPrincipal img{
     height: 100%;
 }
-.boton{
-    margin-top: 30px;
+
+.titulo{
+    border-bottom: solid 3px;
+    margin-bottom: 20px;
+}
+
+.css-button-sharp--black {
+    margin-top: 10px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
     position: relative;
-}
-.botonSalir{
+    display: inline-block;
+    outline: none;
+    border: 2px solid #212529;
+    background: #212529;
+  }
+  .css-button-sharp--black:hover {
+    background: #fff;
+    color: #212529
+  }
+
+  .css-button-sharp--black--salir {
     display: flex;
-    width: 100%;
-    
-}
+    right: 550px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #212529;
+    background: #212529;
+  }
+  .css-button-sharp--black--salir:hover {
+    background: #fff;
+    color: #212529
+  }
